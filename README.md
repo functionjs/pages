@@ -1,5 +1,6 @@
 # pages
-self html pages
+
+html pages live server readme.md   git commands
 ---
 
 ## hint for html Live Server in codespace
