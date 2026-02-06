@@ -52,6 +52,8 @@ git add . && git commit -m "Update all files including newly created" && git pus
 
  Inline $z = \int_0^\infty \frac{\sin(x)}{x} dx$ formula
 
- Outline $$z = \int_0^\infty \frac{\sin(x)}{x} dx$$ formula
+ Outline 
+ $$z = \int_0^\infty \frac{\sin(x)}{x} dx$$
+ formula
 
 
