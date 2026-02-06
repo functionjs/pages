@@ -2,12 +2,12 @@
 self html pages
 ---
 
-## hint
+## hint for html
 if you have not istalled Live Server extension for Visual Studio Code, you can install it from terminal by 
 ```bash
 code --install-extension ritwickdey.LiveServer
 ```
-Then you can right click on this file and select "Open with Live Server"
+Then you can right click on html file and select "Open with Live Server"
 
 ## git
 Do not forget to execute commands to ensure that all Your work synked back to repo:
