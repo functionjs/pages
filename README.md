@@ -28,6 +28,10 @@ git push origin main
 ```
 Do not forget to press CtrlSHiftR in github repo page to see what is current reality!
 
+If changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
 ## server.js
 
 ## mtable.html
