@@ -28,9 +28,17 @@ git push origin main
 ```
 Do not forget to press CtrlSHiftR in github repo page to see what is current reality!
 
-If changes not staged for commit:
+### If changes not staged for commit:
+#### Option 0: Adding one file
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+
+#### Option 1: Fastest 
+git commit -am "Update modified files only" && git push origin main
+
+#### Option 2: If you create new files too
+git add . && git commit -m "Update all files including newly created" && git push origin main
+
 
 ## server.js
 
