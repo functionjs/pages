@@ -2,7 +2,7 @@
 self html pages
 ---
 
-## hint for html
+## hint for html Live Server in codespace
 if you have not istalled Live Server extension for Visual Studio Code, you can install it from terminal by 
 ```bash
 code --install-extension ritwickdey.LiveServer
@@ -44,8 +44,14 @@ git add . && git commit -m "Update all files including newly created" && git pus
 
 ## mtable.html
 
+[multiplication table](mtable.html)
+
+---
+
 ## formulas
 
- $z = \int_0^\infty \frac{\sin(x)}{x} dx$
+ Inline $z = \int_0^\infty \frac{\sin(x)}{x} dx$ formula
+
+ Outline $$z = \int_0^\infty \frac{\sin(x)}{x} dx$$ formula
 
 
