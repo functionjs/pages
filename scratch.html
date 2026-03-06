@@ -167,22 +167,6 @@ g[data-category='doodle-any'] > .blocklyText {
  let mySvg = document.querySelector('svg');
  let x=0, y=0
 
-    function onMouseStop(element, callback, delay = 300) {
-     let timer;
-      element.addEventListener('mousemove', 
-         ////---------------------------------------
-         e => {
-               clearTimeout(timer);
-                timer = setTimeout( () => callback(e), delay);
-              });
-    }
-
-// Usage:
-onMouseStop(mySvg, e => {
-                         mySvg.style.setProperty('--mx', x);
-                         mySvg.style.setProperty('--my', y);
-                        }, 10);
-
   mySvg.addEventListener('mousemove', 
     ////--------------------------------------------------------
        e => {
@@ -192,5 +176,22 @@ onMouseStop(mySvg, e => {
 //               e.currentTarget.style.setProperty('--mx', x);
 //               e.currentTarget.style.setProperty('--my', y);
             });
+
+
+    function onMouseStop(element, callback, delay = 300) {
+     let timer;
+      element.addEventListener('mousemove', 
+         ////---------------------------------------
+         e => {
+               clearTimeout(timer);
+                timer = setTimeout( () => callback(e), delay);
+              });
+    }
+// Usage:
+onMouseStop(mySvg, e => {
+                         mySvg.style.setProperty('--mx', x);
+                         mySvg.style.setProperty('--my', y);
+                        }, 10);
+          
   </script>  
 </body>
