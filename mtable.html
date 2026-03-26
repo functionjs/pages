@@ -46,13 +46,16 @@
                    }
                     
        button {width: 200px;} 
+    /*   
        span { transition: 2s ;
               transform: rotateY(-360deg); 
               
             }
+      */                        
        span:hover {
-                   transform: rotateY(1440deg); 
+                   transform: scale(1.6); /* rotateY(40deg); */
                   }       
+
    </style>
     
   </head>  
@@ -81,7 +84,7 @@
                                    let color = `hsl(${a_}, 100%, 50%)`;
                                    let b_ = a_ + 180 //background color angle
                                     let back = `hsl(${b_}, 50%, 70%)`;
-                                     s += `<span id="${i}*${j}" style="color: ${color}; background-color: ${back}; ">${a} </span>`; 
+                                     s += `<span id="${i}*${j}" style="color: ${color}; background-color: ${back};">${a} </span>`; 
                            }
                             s += "<br>";
                        }
